@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    flex-direction: column;
+}
+
+.myForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 80vh;
+    flex-direction: column;
+}
+.myclass{
+    font-size: 18px;
+    border: 2px solid rgb(83, 34, 34);
+    border-radius: 8px;
+    width: 40%;
+    padding: 9px;
+    margin: 10px;
+}
+
+.btn{
+    padding: 10px;
+    margin: 24px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 15px;
+}

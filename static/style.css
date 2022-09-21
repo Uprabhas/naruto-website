@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 24px
+}
+
+#logo img{
+    height: 45px;
+}
+
+#navbar{
+   background-image: linear-gradient(300deg,rgb(44, 84, 195),skyblue,rgb(251, 205, 119));
+    padding:8px 6px;
+    font-family: 'Syne Mono';
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-size: 25px;
+    text-decoration:none;
+    padding: 13px 20px;
+    margin: 4px 6px;
+    color: white;
+}
+#navbar li a:hover{
+color: rgb(250, 118, 118);
+text-decoration: none;
+padding: 15px 30px;
+}
+
+#introsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 81, 0);
+    font-family: 'Syne Mono';
+    font-size: 405px;
+    background: center /cover no-repeat url("/static/BG.jpg");
+    height: 340px;
+    background-color: rgb(132, 9, 255);
+}
+
+.card{
+    background-image:linear-gradient(25deg,rgb(119, 119, 230),rgb(244, 194, 194) ,rgb(255, 255, 255), transparent);
+    height: 300px;
+    margin: auto;
+    width: 88%;
+}
+
+#mission{
+    background-image: linear-gradient(10deg,black,rgb(177, 97, 97),rgb(205, 182, 50), transparent);
+}
+
+#mission h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mission h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width:30%;
+    height: 200px;
+    margin: 18px 12px;
+    /* text-align:; */
+    margin: 18px;
+    font-size: 20px;
+
+}
+
+
+
+.card-img{
+    height: 100px;
+    padding: 0 8px;
+    margin: 4px 6px;
+}
+
+.card-img img{
+    height: 80px;
+    padding: 0 7px;
+    margin: 2px;
+}
+
+.a h2{
+    font-size: 18px;
+    background-color: beige;
+    text-align: center;
+}
+
+#section{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    padding-top: 20px;
+    height: 250px;
+    background-image: linear-gradient(180deg,rgb(236, 186, 92),rgba(164, 92, 178, 0.848), transparent);
+}
+
+#section p{
+   
+font-size: 19px;
+text-align:center;   
+}
+
+.spimg{
+    height:150px;
+    margin: 20px;
+}
+
+
+
+#sponsours{
+    height: 200px;
+    justify-content: center;
+    margin: auto;
+}
+
+#footer{
+   padding-top: 10px;
+   margin-top: 10px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(140deg,grey,yellow,transparent);
+}
+
+h2{
+    font-size: 16px;
+}

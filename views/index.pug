@@ -1,0 +1,55 @@
+html 
+  head 
+    title Naruto eyes
+    style 
+      include ../static/style.css 
+  body 
+    nav#navbar 
+        ul
+            div#logo
+               img(src="/static/img/logo.jpeg")
+               | M'SDA
+            li #[a(href="/") home] 
+            li #[a(href="/") about] 
+            li #[a(href="/") contact] 
+            li #[a(href="/") services] 
+
+    section#introsection 
+      | welcome to my dance class
+
+    section#mission
+      h2 our mission
+      div.card 
+         h4 any dance style you want
+         div.card-box
+            div.card-img
+               img(src="/static/img/logo.jpeg")
+            div.card-cont
+               p this is best dance class in city
+      div.card 
+         h4 expert teaching
+         div.card-box
+            div.card-img
+               img(src="/static/img/2.png")
+            div.card-cont
+               p this is best dance class in city
+      div.card 
+         h4 many dance time
+         div.card-box
+            div.card-img
+               img(src="/static/img/3.jpg")
+            div.card-cont
+               p this is best dance class in city
+
+    section#section 
+      h2 sponsours
+      p 
+      div#sponsours
+         img(src="/static/img/a.png", alt="sponsor img", class="spimg")
+         img(src="/static/img/b.png", alt="sponsor img", class="spimg")
+         img(src="/static/img/c.jpg", alt="sponsor img", class="spimg")
+
+    footer#footer 
+      | copy right©️ 
+    script 
+      include ../static/index.js 

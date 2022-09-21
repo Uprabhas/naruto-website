@@ -1,0 +1,14 @@
+/* about */
+p{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(183, 224, 241);
+}
